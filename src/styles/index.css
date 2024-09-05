@@ -1,13 +1,9 @@
-/* src/styles/index.css */
-
-/* Reset de estilos básicos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Fonte padrão para todo o aplicativo */
   body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -15,7 +11,6 @@
     line-height: 1.6;
   }
   
-  /* Estilos para links */
   a {
     text-decoration: none;
     color: #333;

@@ -12,3 +12,24 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
+.produto-imagem {
+  width: 100%; /* Para ajustar a largura da imagem ao tamanho do card */
+  height: auto; /* Para manter a proporção da imagem */
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.produtos-lista {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

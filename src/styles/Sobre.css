@@ -3,8 +3,16 @@
   text-align: center;
 }
 
-.sobre img {
-  max-width: 100%;
+.sobre-imagem {
+  width: 27%; 
   height: auto;
   margin-bottom: 20px;
+  border-radius: 10px; 
+}
+
+.sobre p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 20px 0;
 }
