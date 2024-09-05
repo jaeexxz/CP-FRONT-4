@@ -1,19 +1,19 @@
-// src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Produtos from './components/Produtos';
-import Contato from './components/Contato';
 import Sobre from './components/Sobre';
+import Contato from './components/Contato';
 import Error from './components/Error';
 import Footer from './components/Footer';
+import './styles/App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Nav />
+      <Nav />
+      <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/produtos" element={<Produtos />} />
@@ -21,8 +21,8 @@ function App() {
           <Route path="/contato" element={<Contato />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }
