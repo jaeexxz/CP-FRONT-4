@@ -7,3 +7,31 @@
   width: 20px;
   margin-top: 430px;
 }
+
+/* src/styles/Home.css */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Para garantir que o fundo cubra a altura da tela */
+  background-image: url('../assets/background.png'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Para cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  color: white; /* Ajusta a cor do texto para ficar visível sobre a imagem */
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: black; 
+}
+
+p {
+  font-size: 1.5rem;
+  color: black;
+}
