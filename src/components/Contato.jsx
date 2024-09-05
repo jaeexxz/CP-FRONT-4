@@ -1,15 +1,15 @@
+// src/components/Contato.jsx
 import React from 'react';
 import './Contato.css';
 
 function Contato() {
   return (
     <div className="contato">
-      <h1>Contato</h1>
-      <p>Entre em contato conosco para mais informações.</p>
+      <h1>Fale Conosco</h1>
       <form>
-        <input type="text" placeholder="Nome" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Mensagem" required></textarea>
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu email" required />
+        <textarea placeholder="Sua mensagem" required></textarea>
         <button type="submit">Enviar</button>
       </form>
     </div>

@@ -1,10 +1,11 @@
+// src/components/Error.jsx
 import React from 'react';
-import './Error.css';
 
 function Error() {
   return (
-    <div className="error">
+    <div>
       <h1>Página não encontrada</h1>
+      <p>A página que você está tentando acessar não existe.</p>
     </div>
   );
 }

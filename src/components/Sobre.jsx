@@ -1,15 +1,14 @@
+// src/components/Sobre.jsx
 import React from 'react';
 import './Sobre.css';
 
 function Sobre() {
   return (
     <div className="sobre">
-      <h1>Sobre Nós</h1>
-      <img src="url-para-sua-imagem.jpg" alt="Loja de Esportes" />
+      <img src="caminho/para/imagem.jpg" alt="Sobre nós" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel massa velit. 
-        Proin ut velit ut sapien venenatis sollicitudin. Quisque a lectus a velit sollicitudin gravida.
-        {/* Lorem Ipsum de 20 linhas ou qualquer outro texto descritivo */}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus ac, egestas hendrerit magna. Nullam sed felis nec mauris fermentum aliquet. Vivamus placerat sem sit amet sem vestibulum, nec sodales risus mollis. Integer ornare eget turpis ut tincidunt. Proin semper, dui at suscipit elementum, velit mauris vehicula mi, ut suscipit tortor odio ac sapien. Mauris fermentum urna vitae orci ullamcorper, nec luctus magna hendrerit. Duis varius tellus in massa fermentum, a blandit libero volutpat.
+        {/* Continue o texto até completar 20 linhas */}
       </p>
     </div>
   );

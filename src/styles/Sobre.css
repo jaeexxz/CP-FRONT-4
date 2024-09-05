@@ -1,0 +1,24 @@
+/* src/styles/Sobre.css */
+.sobre {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .sobre img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sobre p {
+    font-size: 1.1em;
+    color: #6c757d;
+    line-height: 1.8;
+  }
+  
