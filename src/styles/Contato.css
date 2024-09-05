@@ -1,41 +1,27 @@
-/* src/styles/Contato.css */
 .contato {
-    padding: 60px 20px;
-    background-color: #ffffff;
-    max-width: 600px;
-    margin: 40px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: left;
-  }
-  
-  .contato h1 {
-    color: #ff3b30;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .contato form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .contato input, .contato textarea {
-    padding: 15px;
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    font-size: 1em;
-    background-color: #f8f9fa;
-    transition: border-color 0.3s ease;
-  }
-  
-  .contato input:focus, .contato textarea:focus {
-    border-color: #ff3b30;
-    outline: none;
-  }
-  
-  .contato button {
-    width: 100%;
-  }
-  
+  padding: 20px;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contato input, .contato textarea {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contato button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contato button:hover {
+  background-color: #555;
+}

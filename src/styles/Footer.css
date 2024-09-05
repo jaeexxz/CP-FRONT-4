@@ -1,30 +1,9 @@
-/* src/styles/Footer.css */
-.footer {
-    background: linear-gradient(135deg, #343a40, #212529);
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: auto;
-  }
-  
-  .footer p {
-    margin: 0;
-    font-size: 0.9em;
-    color: #adb5bd;
-  }
-  
-  .footer .social-icons {
-    margin-top: 10px;
-  }
-  
-  .footer .social-icons a {
-    margin: 0 10px;
-    color: #adb5bd;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-  }
-  
-  .footer .social-icons a:hover {
-    color: #ffffff;
-  }
-  
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
