@@ -1,20 +1,4 @@
-/* src/styles/Home.css */
 .home {
-    padding: 60px 20px;
-    text-align: center;
-    background: linear-gradient(135deg, #ff6b6b, #f06595);
-    color: white;
-  }
-  
-  .home h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
-  
-  .home p {
-    font-size: 1.3em;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.8;
-  }
-  
+  padding: 20px;
+  text-align: center;
+}

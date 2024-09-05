@@ -1,49 +1,14 @@
-/* src/styles/App.css */
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-  }
-  
-  .App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  h1, h2, h3 {
-    color: #212529;
-    margin-bottom: 0.5em;
-  }
-  
-  p {
-    color: #6c757d;
-    line-height: 1.6;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #ff3b30;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: #c92a2a;
-  }
-  
-  button {
-    background-color: #ff3b30;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #c92a2a;
-  }
-  
+.App {
+  text-align: center;
+}
+
+nav, footer {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
